@@ -14,6 +14,7 @@ namespace UDP_Test
 
         public Server()
         {
+            //
             int port = Program.InputPort();
             Console.WriteLine("".PadLeft(100, '='));
             new TcpListener(IPAddress.Any, port).Start();
