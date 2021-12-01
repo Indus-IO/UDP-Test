@@ -14,6 +14,7 @@ namespace UDP_Test
 
         public Client()
         {
+            //Client
             Console.WriteLine("Enter the host");
             string host = Console.ReadLine();
             int port = Program.InputPort();
