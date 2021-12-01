@@ -10,6 +10,7 @@ namespace UDP_Test
     {
         static void Main(string[] args)
         {
+            //test
             if (args.Length > 0)
             {
                 if (args[0].Equals("/server"))
